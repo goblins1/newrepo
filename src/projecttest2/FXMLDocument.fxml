@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="565.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projecttest2.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="698.0" fitWidth="1107.0" smooth="false">
+         <image>
+            <Image url="@Table.JPG" />
+         </image>
+      </ImageView>
+      <AnchorPane>
+         <children>
+            <ImageView fx:id="ImageA" fitHeight="61.0" fitWidth="41.0" layoutX="265.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@loading.png" />
+               </image>
+            </ImageView>
+            <ButtonBar layoutX="299.0" layoutY="651.0" prefHeight="40.0" prefWidth="200.0">
+               <buttons>
+                  <Button mnemonicParsing="false" onAction="#ButtonCalle_Click" style="-fx-background-color: #3296ED; -fx-background-radius: 20; -fx-text-fill: #ffffff;" text="CALL">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="button1" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: #ff0000; -fx-background-radius: 22; -fx-text-fill: #ffffff;" text="RAISE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

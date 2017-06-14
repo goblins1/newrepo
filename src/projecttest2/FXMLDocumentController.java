@@ -182,10 +182,10 @@ public class FXMLDocumentController implements Initializable {
                 
                 //***********************temp = ArrayUtils.remove(temp,position);
 //                
-//                String Value = deal1[position];
-//                List <String> list = new ArrayList<>(Arrays.asList(deal1));
-//                list.remove(Value);
-//                deal1 = list.toArray(new String[0]);
+                String Value = deal1[position];
+                List <String> list = new ArrayList<>(Arrays.asList(deal1));
+                list.remove(Value);
+                deal1 = list.toArray(new String[0]);
                 
                 //System.out.print( "->"+position+"<-");
                 //isFirstRoundCompleted = true;

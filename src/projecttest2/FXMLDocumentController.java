@@ -153,14 +153,14 @@ public class FXMLDocumentController implements Initializable {
 //            String deal1[] = new String[40];
             //deal1 = temp;
             
-            int[] deal = new int[6];
+            int[] deal = new int[5];
             //int[] card2 = new int[6];
             int randomNum1;
             //int randomNum2;
 
             Random rand = new Random();
             rand.nextInt(40);
-            for (int i = 0; i < 6; i++) 
+            for (int i = 0; i < 5; i++) 
             {
                 randomNum1 = rand.nextInt(40); // Random number created here.
                 for (int x = 0; x < i; x++) 

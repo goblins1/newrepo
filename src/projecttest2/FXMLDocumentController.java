@@ -140,7 +140,7 @@ public class FXMLDocumentController implements Initializable {
             }
             for(String te : deal1)
             {
-                System.out.println("********"+te+"**********");
+                System.out.print(te+" ");
             }
 
         }
@@ -195,7 +195,7 @@ public class FXMLDocumentController implements Initializable {
             for (String deal2 : deal1) {
                 
                 
-                System.out.println(deal2 + " ");
+                System.out.print(deal2 + " ");
             }
             
         }

@@ -143,6 +143,7 @@ public class FXMLDocumentController implements Initializable {
                 System.out.print(te+" ");
             }
 
+            int a;
         }
         
         public void Dealer()
